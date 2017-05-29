@@ -1,1 +1,81 @@
+@charset="utf-8";
 
+body{
+background-color: mediumaquamarine;
+}
+
+#logo li {
+  display: table-call;
+  vertical-align: middle;
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+#logo img {
+  width: 100px;
+}
+
+#gnav a {
+  display: block;
+  padding:10px 0;
+  text-align: center;
+  text-decoration: none;
+  background: darkgreen;
+  color: white;
+}
+#gnav a:after {
+  clear: both;
+}
+#gnav div.img{
+  display: table-cell;
+  vertical-align: middle;
+  background: url(../img/free_icons_for_web_by_rachel1009.jpg) no-repeat;
+  width:55px;
+  height: 46px;
+}
+#gnav div.text{
+  display: table-sell;
+  vertical-align: middle;
+  padding: 10px 5px;
+}
+div.img#home{ background-position: 0 0px;}
+div.img#content1{ background-position: 0 -46px;}
+div.img#content2{ background-position: 0 -92px;}
+div.img#help{ background-position: 0 -138px;}
+div.img#faq{ background-position: 0 -184px;}
+
+#gnav a:hover {
+background: lightgreen;
+color: black;
+}
+
+#gnav a.selected｛
+background: white;
+color: darkgreen;
+font-weight: bold;
+}
+
+#gnav li {
+  float: left;
+  width: 156px;
+  border-right: white 1px solid;
+  list-style-type: none;
+}
+
+#gnav li:first-child {
+  border-left: white 1px solid;
+}
+  
+  
+.breadcrumbs li {
+display: inline;
+list-style-type: none;
+}
+
+.breadcrumbs li :before {
+  content: " > ";
+}
+
+.breadcrumbs li :first-child:before {
+  content:"";
+}
