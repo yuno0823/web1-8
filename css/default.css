@@ -5,7 +5,7 @@ background-color: mediumaquamarine;
 }
 
 #logo li {
-  display: table-call;
+  display: table-cell;
   vertical-align: middle;
   padding: 0 10px;
   list-style-type: none;
@@ -34,7 +34,7 @@ background-color: mediumaquamarine;
   height: 46px;
 }
 #gnav div.text{
-  display: table-sell;
+  display: table-cell;
   vertical-align: middle;
   padding: 10px 5px;
 }
@@ -44,12 +44,12 @@ div.img#content2{ background-position: 0 -92px;}
 div.img#help{ background-position: 0 -138px;}
 div.img#faq{ background-position: 0 -184px;}
 
-#gnav a:hover {
+#gnav a:hover{
 background: lightgreen;
 color: black;
 }
 
-#gnav a.selected｛
+#gnav a.selected{
 background: white;
 color: darkgreen;
 font-weight: bold;
